@@ -35,15 +35,13 @@ The service uses simple keywords match to detect job position grade, for the fol
 4. Senior
 5. Lead
 6. Executive
-## Setup
 
 ### Testing deployed docker container
 1. `cd` to the root of this repository.
-2. `docker compose up --build` run the containers 
-3. Use Rest Client APIsHub to test the app url: `http://localhost:5000/classify`
-3. Use the post request with the following json input: `{   "text": ["junior machine learning engineer", "senior cloud architect"] }`
-### Test `main.py`
+2. `docker compose up --build` run the containers
+5. Run `main.py` script
 
+### Setup local environment
 1. Set your Python executable to 3.7
 2. `cd` to the root of this repository.
 3. `virtualenv job_title_classifier` to create a virtual environment.
@@ -53,4 +51,5 @@ The service uses simple keywords match to detect job position grade, for the fol
 6. `pip install ipykernel` to install ipykernel
 7. `python -m ipykernel install --user --name job_title_classifier --display-name "job_title_classifier"` to register new kernel
 8. `pip install -r requirements.txt` to install project dependencies
+9. run `classifier_app.py`   
 9. run `main.py`
