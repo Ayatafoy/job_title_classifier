@@ -53,3 +53,15 @@ The repository contains the implementation of the job title classifier training 
 8. `pip install -r requirements.txt` to install project dependencies
 9. run `classifier_app.py`   
 9. run `main.py`
+
+## Improvements steps
+1. Extend training dataset with more classes and samples
+2. Train FastText embeddings an full dataset, presented in EDA notebook and use FastText embeddings instead of Embedding layer
+3. Add k-fold cross validation
+4. Add bayessian hyperparameters optimization
+5. Add training tricks like LR scheduler and early stopping
+6. Add more models for benchmarking, for example SVM, Logreg, LSTM, Distilbert and so on. Depending on dataset size.
+7. Iteratively clean the dataset using cleanlab
+8. Add classes weights
+9. Test different loss functions
+10. Test different optimizers
