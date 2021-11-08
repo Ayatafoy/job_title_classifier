@@ -1,7 +1,7 @@
 # Job title classifier
 The repository contains the implementation of the job title classifier training and deployment pipeline
 
-Classifier was trained to classify the following IT Jobs specializations:
+### Classifier was trained to classify the following IT Jobs specializations:
 1. Cloud Architect
 2. Technology Integration
 3. Statistics
@@ -28,7 +28,7 @@ Classifier was trained to classify the following IT Jobs specializations:
 24. Full Stack Developer
 25. Data Scientist
 
-The service uses simple keywords match to detect job position grade, for the following grades:
+### The service uses simple keywords match to detect job position grade, for the following grades:
 1. Intern
 2. Junior
 3. Middle
