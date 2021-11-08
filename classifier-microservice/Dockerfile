@@ -1,11 +1,12 @@
 FROM python:3.7
 
-RUN python -m pip install flask flask-cors gunicorn numpy tensorflow pillow
-
+RUN python -m pip install flask flask-cors gunicorn numpy tensorflow nltk
+RUN python -m pip install -U scikit-learn
 WORKDIR /app
 
-ADD image.py image.py
 ADD classifier_app.py classifier_app.py
+ADD tokenizer.pickle tokenizer.pickle
+ADD encoder.pickle encoder.pickle
 ADD model.h5 model.h5
 
 EXPOSE 5000
