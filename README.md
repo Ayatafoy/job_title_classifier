@@ -66,13 +66,13 @@ The repository contains the implementation of the job title classifier training 
 9. Test different loss functions
 10. Test different optimizers
 
-##Useful resources:
-###Papers with code dataset
+## Useful resources:
+### Papers with code dataset
 https://paperswithcode.com/paper/a-large-scale-industrial-and-professional
 https://paperswithcode.com/dataset/skill2vec
 https://paperswithcode.com/dataset/jobstack
 
-###Kaggle datasets
+### Kaggle datasets
 https://www.kaggle.com/nsharan/h-1b-visa
 https://www.kaggle.com/abrambeyer/h1b-visa-petitions-20152019
 https://www.kaggle.com/mullervilmos/it-jobs
@@ -81,37 +81,40 @@ https://www.kaggle.com/devario/uk-data-science-jobs-dataset
 https://www.kaggle.com/PromptCloudHQ/us-jobs-on-monstercom
 https://www.kaggle.com/estasney/job-title-synonyms
 
-###O*NET Job titles description
+### O*NET Job titles description
 https://www.onetcenter.org/database.html#all-files
 
-###Job titles IT
+### Job titles IT
 https://github.com/ggeop/Job-Recommendation-Engine
 
-###Industry text classifier
+### Industry text classifier
 https://github.com/Elzawawy/industry-text-classifier
 
-###Classification of job positions by area and level
+### Classification of job positions by area and level
 https://github.com/rootstrap/ai-job-title-area-classification/
 https://github.com/rootstrap/ai-job-title-level-classification
 
-###A tool to assign standard occupational classification codes to job vacancy descriptions
+### A tool to assign standard occupational classification codes to job vacancy descriptions
 https://github.com/aeturrell/occupationcoder
 
-###Job tag classifier
+### Job tag classifier
 https://github.com/mrciolino/Job-Tag-Classifier
 
-###Implementing a CNN for Text Classification in TensorFlow
+### Implementing a CNN for Text Classification in TensorFlow
 http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
 
-###Example of text classification on job description dataset
+### Example of text classification on job description dataset
 https://github.com/Solvve/ml_job_classifier/blob/master/job_classification_example.ipynb
 
-###Linkedin Job parser
+### Linkedin Job parser
 https://github.com/sethpoly/linkedin_linker
 https://github.com/connorgiles/job-hoarder
 https://github.com/rylee12/Job-Finder
 https://github.com/JKeun/something-fun/blob/master/data/job-titles-linkedin-parsing-name.csv
 https://levelup.gitconnected.com/linkedin-scrapper-a3e6790099b5
 
-###ODS salaries analysis
+### ODS salaries analysis
 https://github.com/egorborisov/jobs_article
+
+Google drive with additional datasets:
+
