@@ -1,3 +1,23 @@
+Skip to content
+
+Search…
+All gists
+Back to GitHub
+@Ayatafoy
+@MOOOWOOO
+MOOOWOOO/py-gitignore
+Created 5 years ago • Report abuse
+60
+9
+ Code
+ Revisions 1
+ Stars 60
+ Forks 9
+<script src="https://gist.github.com/MOOOWOOO/3cf91616c9f3bbc3d1339adfc707b08a.js"></script>
+python pycharm gitignore
+py-gitignore
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,6 +28,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -19,13 +40,9 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,16 +57,13 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*.cover
-*.py,cover
+*,cover
 .hypothesis/
-.pytest_cache/
 
 # Translations
 *.mo
@@ -58,8 +72,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
 
 # Flask stuff:
 instance/
@@ -74,57 +86,164 @@ docs/_build/
 # PyBuilder
 target/
 
-# Jupyter Notebook
+# IPython Notebook
 .ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
 
 # pyenv
 .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
+# celery beat schedule file
 celerybeat-schedule
-celerybeat.pid
 
-# SageMath parsed files
-*.sage.py
-
-# Environments
+# dotenv
 .env
-.venv
-env/
+
+# virtualenv
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
-.spyproject
 
 # Rope project settings
 .ropeproject
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# mkdocs documentation
-/site
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
-# Pyre type checker
-.pyre/
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
 .idea/
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+@aletifov
+aletifov commented on Jan 15, 2020
+ty
+
+@ViktorLavrenenko
+ViktorLavrenenko commented on May 2, 2020
+Thanks)
+
+@JasonVanRaamsdonk
+JasonVanRaamsdonk commented on May 14, 2020
+helpful, thanks
+
+@Capelinha
+Capelinha commented on May 29, 2020
+🥇
+
+@chichur
+chichur commented on Jul 19, 2020
+спасибо
+
+@AVladyslav
+AVladyslav commented on Oct 25, 2020
+thx
+
+@voidloop
+voidloop commented on Nov 7, 2020
+Thank you!
+
+'.Python' pattern is defined more than once.
+
+@achraf-jeday
+achraf-jeday commented on Nov 10, 2020
+Merci beaucoup !!
+
+@grimmigerFuchs
+grimmigerFuchs commented on Jan 10
+Thanks!
+
+@lenargasimov
+lenargasimov commented on Feb 25
+Thx!
+
+@Joknaa
+Joknaa commented on Apr 1
+thanks you
+
+@KrishGarg
+KrishGarg commented on Apr 18
+You, my friend, are a legend. Thanks!
+
+@GreyEdwardTen
+GreyEdwardTen commented on May 20
+Thanks very much
+
+@tlancon
+tlancon commented on May 26
+Thank you!
+
+@zvarychdenys
+zvarychdenys commented on Jul 7
+thanks!!!
+
+@Ayatafoy
+
+Leave a comment
+No file chosen
+Attach files by dragging & dropping, selecting or pasting them.
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
