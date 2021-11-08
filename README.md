@@ -117,4 +117,7 @@ https://levelup.gitconnected.com/linkedin-scrapper-a3e6790099b5
 https://github.com/egorborisov/jobs_article
 
 Google drive with additional datasets:
+https://drive.google.com/file/d/1BdF_oM6OoESRM8vvuQgfdWHz65dbDZqn/view?usp=sharing
+
+Unzip the archive in the project root.
 
